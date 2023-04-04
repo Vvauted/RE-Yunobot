@@ -1,0 +1,1019 @@
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.12.3[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:storage[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-04-03 00:10:36[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://127.0.0.1:5141[0m
+[38;5;8m2023-04-03 00:10:37[0m [W] [38;5;178;1mmarket[0m failed to parse [38;5;178mkoishi-plugin-arcaea-random[0m
+[38;5;8m2023-04-03 00:10:37[0m [W] [38;5;178;1mmarket[0m Error: Cannot find module 'D:\bot\koishi-app\node_modules\koishi-plugin-arcaea-random\lib\index.js'. Please verify that the package.json has a valid "main" entry
+                            at tryPackage (node:internal/modules/cjs/loader:436:19)
+                            at Module._findPath (node:internal/modules/cjs/loader:678:18)
+                            at Module._resolveFilename (node:internal/modules/cjs/loader:1061:27)
+                            at Function.resolve (node:internal/modules/cjs/helpers:116:19)
+                            at PackageProvider2.loadPackage (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:386:26)
+                            at PackageProvider2.loadDirectory (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:379:16)
+                            at async Promise.all (index 0)
+                            at async PackageProvider2.prepare (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:351:5)
+                            at async PackageProvider2.get (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:356:5)
+                            at async PackageProvider2.refresh (D:\bot\koishi-app\node_modules\@koishijs\plugin-console\lib\shared\index.js:66:14)
+[2023-04-03 00:20:00] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2023-04-03 00:20:30] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[38;5;8m2023-04-03 00:23:17[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:23:18[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:26:46[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:26:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:32:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:46:59[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:47:20[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:47:21[0m [W] [38;5;32;1mgocqhttp[0m 账号密码未配置, 将使用二维码登录.
+[38;5;8m2023-04-03 00:47:21[0m [W] [38;5;32;1mgocqhttp[0m 虚拟设备信息不存在, 将自动生成随机设备.
+[38;5;8m2023-04-03 00:47:33[0m [W] [38;5;32;1mgocqhttp[0m 当前协议不支持二维码登录, 请配置账号密码登录.
+[38;5;8m2023-04-03 00:49:16[0m [I] [38;5;78;1mapp[0m unload plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:49:17[0m [W] [38;5;178;1mmarket[0m Error: Cannot find module 'D:\bot\koishi-app\node_modules\koishi-plugin-arcaea-random\lib\index.js'. Please verify that the package.json has a valid "main" entry
+                            at tryPackage (node:internal/modules/cjs/loader:436:19)
+                            at Module._findPath (node:internal/modules/cjs/loader:678:18)
+                            at Module._resolveFilename (node:internal/modules/cjs/loader:1061:27)
+                            at Function.resolve (node:internal/modules/cjs/helpers:116:19)
+                            at PackageProvider2.loadPackage (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:386:26)
+                            at PackageProvider2.loadDirectory (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:379:16)
+                            at async Promise.all (index 0)
+                            at async PackageProvider2.prepare (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:351:5)
+                            at async PackageProvider2.get (D:\bot\koishi-app\node_modules\@koishijs\plugin-market\lib\node\index.js:356:5)
+                            at async PackageProvider2.refresh (D:\bot\koishi-app\node_modules\@koishijs\plugin-console\lib\shared\index.js:66:14)
+[38;5;8m2023-04-03 00:49:17[0m [W] [38;5;178;1mmarket[0m failed to parse [38;5;178mkoishi-plugin-arcaea-random[0m
+[38;5;8m2023-04-03 00:49:17[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:49:21[0m [W] [38;5;32;1mgocqhttp[0m 登录失败: 帐号或密码错误，请重新输入。 Code: 1 
+[38;5;8m2023-04-03 00:49:58[0m [W] [38;5;32;1mgocqhttp[0m 检查协议更新失败: Get "https://ghproxy.com/https://raw.githubusercontent.com/RomiChan/protocol-versions/master/android_pad.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[38;5;8m2023-04-03 00:50:04[0m [W] [38;5;32;1mgocqhttp[0m 登录失败: 帐号或密码错误，请重新输入。 Code: 1 
+[38;5;8m2023-04-03 00:50:17[0m [I] [38;5;78;1mapp[0m reload plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:50:36[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-04-03 00:50:37[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:50:42[0m [W] [38;5;32;1mgocqhttp[0m 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+[38;5;8m2023-04-03 00:50:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:50:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:50:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:50:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:50:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:50:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:50:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:51:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:51:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:52:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:52:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:53:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:53:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:54:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:54:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:54:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:54:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:54:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:54:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:54:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:54:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.12.3[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:storage[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-04-03 00:57:11[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:develop[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhmr[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://127.0.0.1:5141[0m
+[38;5;8m2023-04-03 00:57:12[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:28[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:28[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:28[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:28[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:28[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:28[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:28[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:48[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.12.3[0m
+[38;5;8m2023-04-03 00:57:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-04-03 00:57:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-04-03 00:57:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:storage[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:develop[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhmr[0m
+[38;5;8m2023-04-03 00:57:50[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://127.0.0.1:5141[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-04-03 00:57:49[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 00:57:50[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-04-03 00:57:56[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:56[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:56[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:56[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:57[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:57[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:57[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:57[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:57[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:57:57[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:01[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:01[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:01[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:01[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:02[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:02[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:02[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 00:58:04[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-04-03 00:58:07[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:58:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:58:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 00:59:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 00:59:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:15[0m [W] [38;5;78;1mapp[0m YAMLException: duplicated mapping key (51:1)
+                        
+                         48 |       enabled: true
+                         49 |       password: Hyl88461421
+                         50 |     selfId: '2785095754'
+                         51 | plugins:
+                        ------^
+                         52 | →arcaea-random:{}
+                            at generateError (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:183:10)
+                            at throwError (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:187:9)
+                            at storeMappingPair (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:358:7)
+                            at readBlockMapping (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1173:9)
+                            at composeNode (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1441:12)
+                            at readDocument (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1625:3)
+                            at loadDocuments (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1688:5)
+                            at Object.load (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1714:19)
+                            at NodeLoader.readConfig (D:\bot\koishi-app\node_modules\@koishijs\loader\src\shared.ts:171:26)
+                            at NodeLoader.readConfig (D:\bot\koishi-app\node_modules\@koishijs\loader\src\index.ts:55:12)
+[38;5;8m2023-04-03 01:00:15[0m [W] [38;5;78;1mapp[0m YAMLException: duplicated mapping key (51:1)
+                        
+                         48 |       enabled: true
+                         49 |       password: Hyl88461421
+                         50 |     selfId: '2785095754'
+                         51 | plugins:
+                        ------^
+                         52 | →arcaea-random:{}
+                            at generateError (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:183:10)
+                            at throwError (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:187:9)
+                            at storeMappingPair (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:358:7)
+                            at readBlockMapping (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1173:9)
+                            at composeNode (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1441:12)
+                            at readDocument (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1625:3)
+                            at loadDocuments (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1688:5)
+                            at Object.load (D:\bot\koishi-app\node_modules\js-yaml\lib\loader.js:1714:19)
+                            at NodeLoader.readConfig (D:\bot\koishi-app\node_modules\@koishijs\loader\src\shared.ts:171:26)
+                            at NodeLoader.readConfig (D:\bot\koishi-app\node_modules\@koishijs\loader\src\index.ts:55:12)
+[38;5;8m2023-04-03 01:00:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:00:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:00:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:01:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:01:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:02:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:02:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:03:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:03:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:04:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:04:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:05:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:05:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:06:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:06:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:07:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:07:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:08:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:08:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:05[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:07[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:10[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:17[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:20[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:22[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:25[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:27[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:30[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:32[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:35[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:37[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:40[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:47[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:50[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:52[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:09:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:09:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:10:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:10:02[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.12.3[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-04-03 01:11:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:storage[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:develop[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhmr[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-04-03 01:11:22[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://127.0.0.1:5141[0m
+[38;5;8m2023-04-03 01:11:26[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-04-03 01:11:29[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:11:34[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:11:37[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:11:39[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:11:42[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:11:44[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:11:47[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:11:49[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:11:52[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:11:54[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:11:57[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:11:59[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:02[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:04[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:07[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:08[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78marcaea-random:kj94j9[0m
+[38;5;8m2023-04-03 01:12:09[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:12[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:14[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:17[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:19[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:22[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:24[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:27[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:29[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:32[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:34[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:37[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:39[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:42[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:44[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:47[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:49[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:52[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:54[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:12:57[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:12:59[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:02[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:04[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:05[0m [I] [38;5;167;1mwatch[0m reload plugin at [38;5;167mexternal\arcaea-random\src\index.ts[0m
+[38;5;8m2023-04-03 01:13:06[0m [I] [38;5;167;1mwatch[0m reload plugin at [38;5;167mexternal\arcaea-random\src\index.ts[0m
+[38;5;8m2023-04-03 01:13:07[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:09[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:12[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:14[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:17[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:19[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:22[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:24[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:27[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:29[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:32[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:34[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:37[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:39[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:42[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:42[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:45[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:45[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:48[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:48[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:54[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:54[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:13:57[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:13:57[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:00[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:04[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:07[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:09[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:12[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:13[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:16[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:16[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:19[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:19[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:22[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:24[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:27[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:29[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:32[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:34[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:37[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:39[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:42[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:44[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:47[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:49[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:52[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:54[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:14:57[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:14:59[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:02[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:04[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:07[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:09[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:12[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:14[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:17[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:19[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:22[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:24[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:27[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:29[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:32[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:34[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:37[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:39[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:42[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:44[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:47[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:49[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:52[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:54[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:15:57[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:15:59[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:02[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:04[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:07[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:09[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:12[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:14[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:17[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:19[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:22[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:24[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:27[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:29[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:32[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:34[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:37[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:39[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:42[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:44[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:47[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:49[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:52[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:54[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:16:57[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:16:59[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:17:02[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:17:04[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:17:07[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:17:09[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:17:12[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:17:14[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:17:17[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:17:19[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:17:22[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:17:24[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:17:27[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:17:29[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:17:32[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:17:33[0m [I] [38;5;78;1mapp[0m unload plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 01:18:39[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 01:18:52[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-04-03 01:18:55[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:00[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:03[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:05[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:08[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:09[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:12[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:12[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:15[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:15[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:18[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:20[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:23[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:25[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:28[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:30[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:33[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:35[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:38[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:40[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:43[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:45[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:19:48[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:19:50[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:01[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:01[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:20:01[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:20:01[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:03[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:05[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:08[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:10[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:13[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:15[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:18[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:20[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:23[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:25[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:28[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:30[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:33[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:35[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:20:38[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:20:40[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[38;5;8m2023-04-03 01:21:51[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status) 
+[38;5;8m2023-04-03 01:21:53[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:21:55[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:21:58[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:00[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:03[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:05[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:08[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:10[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:13[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:15[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:18[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:20[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:23[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:25[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:28[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:30[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:33[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:35[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:38[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:40[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:43[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:45[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:48[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:50[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:53[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:22:55[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:22:58[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:00[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:03[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:05[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:08[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:10[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:13[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:15[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:18[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:20[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:23[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:25[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:28[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:30[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:33[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:35[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:38[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:40[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:43[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:45[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:48[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:50[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:53[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:23:55[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:23:58[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:00[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:03[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:05[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:08[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:10[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:13[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:15[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:18[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:20[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:23[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:25[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:28[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:30[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:33[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:35[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:38[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:40[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:43[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:45[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:48[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:50[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:53[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:24:55[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:24:58[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:25:00[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:25:03[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:25:05[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:25:08[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:25:10[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:25:13[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:25:15[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:25:18[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:25:20[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:25:23[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:25:25[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:25:28[0m [W] [38;5;32;1mgocqhttp[0m 监听反向WS Universal时出现错误: websocket: close 1005 (no status)
+[38;5;8m2023-04-03 01:25:30[0m [W] [38;5;32;1mgocqhttp[0m 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent
+[38;5;8m2023-04-03 01:26:07[0m [I] [38;5;78;1mapp[0m reload plugin [38;5;78madapter-onebot:hahfo8[0m
+[38;5;8m2023-04-03 01:26:08[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-04-03 01:26:11[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-04-03 01:26:16[0m [W] [38;5;32;1mgocqhttp[0m 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+[38;5;8m2023-04-03 01:26:27[0m [W] [38;5;32;1mgocqhttp[0m 警告: 长消息响应延迟为 11439ms, 大于 1000ms, 可能导致无法接收/发送长消息的情况, 请检查本地网络状态. 
+[38;5;8m2023-04-03 04:01:00[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> parse incoming packet error: return code unsuccessful: -10118
+[38;5;8m2023-04-03 13:14:06[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: read tcp 192.168.1.3:61229->163.177.30.225:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:17:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:18:52[0m [W] [38;5;178;1mmarket[0m warning package-lock.json found. Your project contains lock files generated by tools other than Yarn. It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. To clear this warning, remove package-lock.json.
+[38;5;8m2023-04-03 13:18:52[0m [I] [38;5;178;1mmarket[0m [1/4] Resolving packages...
+[38;5;8m2023-04-03 13:18:53[0m [I] [38;5;178;1mmarket[0m [2/4] Fetching packages...
+[38;5;8m2023-04-03 13:19:04[0m [I] [38;5;178;1mmarket[0m [3/4] Linking dependencies...
+[38;5;8m2023-04-03 13:19:04[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-discord > @satorijs/adapter-discord@3.6.0" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:19:04[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-kook > @satorijs/adapter-kook@3.7.1" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:19:04[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-lark > @satorijs/adapter-lark@2.0.1" has unmet peer dependency "@satorijs/satori@^2.2.2".
+[38;5;8m2023-04-03 13:19:04[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-onebot > @satorijs/adapter-onebot@5.6.5" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:19:04[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-telegram > @satorijs/adapter-telegram@3.7.3" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:19:04[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-database-sqlite > @minatojs/driver-sqlite > @minatojs/sql-utils@4.0.3" has unmet peer dependency "@minatojs/core@^2.3.1".
+[38;5;8m2023-04-03 13:19:04[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-database-sqlite > @minatojs/driver-sqlite@3.4.2" has unmet peer dependency "@minatojs/core@^2.3.1".
+[38;5;8m2023-04-03 13:19:08[0m [I] [38;5;178;1mmarket[0m [4/4] Building fresh packages...
+[38;5;8m2023-04-03 13:19:08[0m [I] [38;5;178;1mmarket[0m success Saved lockfile.
+[38;5;8m2023-04-03 13:19:51[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mblockly:1hub3r[0m
+[38;5;8m2023-04-03 13:19:51[0m [I] [38;5;214;1mblockly[0m No plugin loaded
+[38;5;8m2023-04-03 13:19:51[0m [I] [38;5;209;1msqlite[0m auto creating table [38;5;209mblockly[0m
+[38;5;8m2023-04-03 13:20:12[0m [I] [38;5;78;1mapp[0m unload plugin [38;5;78mblockly:1hub3r[0m
+[38;5;8m2023-04-03 13:20:13[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mblockly:1hub3r[0m
+[38;5;8m2023-04-03 13:20:13[0m [I] [38;5;214;1mblockly[0m No plugin loaded
+[38;5;8m2023-04-03 13:23:10[0m [W] [38;5;178;1mmarket[0m warning package-lock.json found. Your project contains lock files generated by tools other than Yarn. It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. To clear this warning, remove package-lock.json.
+[38;5;8m2023-04-03 13:23:10[0m [I] [38;5;178;1mmarket[0m [1/4] Resolving packages...
+[38;5;8m2023-04-03 13:23:10[0m [I] [38;5;178;1mmarket[0m [2/4] Fetching packages...
+[38;5;8m2023-04-03 13:23:11[0m [I] [38;5;178;1mmarket[0m [3/4] Linking dependencies...
+[38;5;8m2023-04-03 13:23:11[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-discord > @satorijs/adapter-discord@3.6.0" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:23:11[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-kook > @satorijs/adapter-kook@3.7.1" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:23:11[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-onebot > @satorijs/adapter-onebot@5.6.5" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:23:11[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-lark > @satorijs/adapter-lark@2.0.1" has unmet peer dependency "@satorijs/satori@^2.2.2".
+[38;5;8m2023-04-03 13:23:11[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-adapter-telegram > @satorijs/adapter-telegram@3.7.3" has unmet peer dependency "@satorijs/satori@^2.2.3".
+[38;5;8m2023-04-03 13:23:11[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-database-sqlite > @minatojs/driver-sqlite > @minatojs/sql-utils@4.0.3" has unmet peer dependency "@minatojs/core@^2.3.1".
+[38;5;8m2023-04-03 13:23:11[0m [W] [38;5;178;1mmarket[0m warning "@koishijs/plugin-database-sqlite > @minatojs/driver-sqlite@3.4.2" has unmet peer dependency "@minatojs/core@^2.3.1".
+[38;5;8m2023-04-03 13:23:12[0m [I] [38;5;178;1mmarket[0m [4/4] Building fresh packages...
+[38;5;8m2023-04-03 13:23:12[0m [I] [38;5;178;1mmarket[0m success Saved lockfile.
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:18[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:23:23[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-04-03 13:30:51[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 13:41:46[0m [I] [38;5;32;1mgocqhttp[0m 现已迁移
+[38;5;8m2023-04-03 13:41:46[0m [I] [38;5;32;1mgocqhttp[0m https://www.tomato-aoarasi.com/help/arcaea (-177088607)
+[38;5;8m2023-04-03 13:47:36[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 14:04:21[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 14:21:07[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF
+[38;5;8m2023-04-03 19:00:10[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: read tcp 192.168.1.3:61372->163.177.30.25:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[38;5;8m2023-04-03 19:16:57[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 19:33:42[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 19:50:27[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 20:15:42[0m [I] [38;5;32;1mgocqhttp[0m 你才初三。
+[38;5;8m2023-04-03 20:15:42[0m [I] [38;5;32;1mgocqhttp[0m 你才高一。
+[38;5;8m2023-04-03 20:15:42[0m [I] [38;5;32;1mgocqhttp[0m 呃，已经高二了，只能阴间再见了。 (1985426880)
+[38;5;8m2023-04-03 20:16:56[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 20:33:41[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 20:50:26[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 21:07:11[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 21:23:55[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 21:40:40[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 21:50:30[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: read tcp 192.168.1.3:57198->116.130.230.31:80: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[38;5;8m2023-04-03 22:07:15[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
+[38;5;8m2023-04-03 22:24:00[0m [E] [38;5;32;1mgocqhttp[0m Protocol -> unexpected disconnect: EOF 
